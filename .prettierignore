@@ -6,3 +6,4 @@
 **/*.sh
 **/*.cjs
 /public/*
+./vite.config.ts

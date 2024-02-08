@@ -1,20 +1,20 @@
 <template>
   <div>
-    <h1>{{ str }}</h1>
+    <h1>根组件</h1>
+      <SvgIcon name="home" color="green" width="300px" height="300px"></SvgIcon>
   </div>
 </template>
 
 <script setup lang="ts" name="App">
-let str = 'this is test str'
-console.log(str)
 
-let test = "i am test str"
-console.log(test);
 
 </script>
 
 <style lang="scss" scoped>
-h1 {
-  background: skyblue;
+div{
+  h1{
+    color:$color
+  }
 }
+
 </style>
